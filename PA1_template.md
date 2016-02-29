@@ -1,3 +1,5 @@
+```{r}
+
 library(ggplot2)
 library(plyr)
 
@@ -100,6 +102,4 @@ xyplot(Avg~interval|DayCategory, data=intervalTable2, type="l",  layout = c(1,2)
        ylab="Average Number of Steps", xlab="Interval")
 
 
-
-
-
+```
